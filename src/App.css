@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  width: 120px;
+  height: 20px;
+  margin: 0 0 0 0;
+  float: left;
+}
+.logo > img {
+  width: 120px;
+}
+.ant-layout-sider-zero-width-trigger {
+  z-index: 1;
+}
+.ant-layout-header {
+  background: #f0353b !important;
+}
+.menu {
+  text-align: center;
+  background-color: #7d7f84;
+  color: white;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 18px;
+}
+.btn-cta-search,
+.btn-cta-search:hover {
+  background: #f0353b !important;
+  color: white !important;
+  border: 1px solid #f0353b !important;
+  width: 100%;
+}
+.btn-cta-clear {
+  border: 1px solid #f0353b !important;
+  color: #f0353b !important;
+  width: 100%;
+}
+.text-right {
+  text-align: right;
+  padding-bottom: 10px;
+}
+.btn_secondary {
+  color: white !important;
+  background: #92d66f !important;
+  border: 1px #92d66f solid !important;
+  margin: 0 5px 0 5px;
+}
+.ant-input-number {
+  width: 100% !important;
+  height: 30px !important;
+}
+.ant-table-thead > th {
+  cursor: move;
+}
+.icons-acciones {
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #f0353b !important;
+  color: #fff;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  color: #fff !important;
+  background: #f0353b !important;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab .ant-tabs-close-x {
+  color: #fff !important;
+}
+.ant-btn-danger {
+  color: #f5222d;
+  background-color: #fff !important;
+  border-color: #d9d9d9;
+}
+.ant-btn-danger:hover {
+  color: #fff !important;
+  background-color: #f5222d !important;
+  border-color: #d9d9d9;
+}
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid #f5222d !important;
+}
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before {
+  background: linear-gradient(to right, #494f66, #494f66) !important;
+}
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: #494f66 !important;
+}
+.ant-tabs-tab:hover {
+  color: #494f66 !important;
+}
+.ant-badge-status-dot {
+  width: 20px !important;
+  height: 20px !important;
+}
+.ant-spin i{
+  background: #f0353b
+}
+.ant-table-column-title .ant-table-selection label{
+  display: none;
+}

@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "import"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+      "modules": true
+    },
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "react/no-children-prop": 0
+  }
+}
